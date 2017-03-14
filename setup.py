@@ -30,7 +30,7 @@ test_requires = requires + [
 ]
 
 setup(name='openprocurement.chronograph',
-      version='0.6.5+ea',
+      version='0.6.5-sale',
       description='openprocurement.chronograph',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
@@ -39,9 +39,9 @@ setup(name='openprocurement.chronograph',
           "Topic :: Internet :: WWW/HTTP",
           "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
       ],
-      author='',
-      author_email='',
-      url='',
+      author='Quintagroup, Ltd.',
+      author_email='info@quintagroup.com',
+      url='https://github.com/prozorro-sale/openprocurement.chronograph',
       keywords='web pyramid pylons',
       packages=find_packages(),
       namespace_packages=['openprocurement'],
