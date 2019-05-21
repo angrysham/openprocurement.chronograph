@@ -15,7 +15,8 @@ cache:
     - eggs
 before_install:
   - pip install setuptools==7.0
-  - pip install mr.developer==2.0.0 
+  - pip install mr.developer==2.0.0
+  - pip install six==1.9.0
   - pip install zc.buildout==2.2.5
   - python2 bootstrap.py 
 install:
