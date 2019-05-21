@@ -15,6 +15,7 @@ cache:
     - eggs
 before_install:
   - pip install setuptools==7.0
+  - pip install mr.developer==2.0.0 
   - python2 bootstrap.py
 install:
   - bin/buildout -N
@@ -26,6 +27,6 @@ notifications:
   webhooks:
     urls:
       - https://webhooks.gitter.im/e/15e2534ac51757c92e72
-    on_success: always
-    on_failure: always
+    on_success: false
+    on_failure: false
     on_start: false
